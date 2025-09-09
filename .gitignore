@@ -6,16 +6,27 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+UserSettings/
 
-# IDE / OS files
+# IDE / project files
 .vs/
 .vscode/
+.idea/
 *.csproj
 *.unityproj
 *.sln
 *.user
+*.iml
 *.swp
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Unity packages
+*.unitypackage
+
+# Build artifacts
 *.apk
 *.aab
 *.exe
@@ -29,7 +40,3 @@
 *.mdb
 *.opendb
 *.VC.db
-
-# Rider
-.idea/
-*.iml
